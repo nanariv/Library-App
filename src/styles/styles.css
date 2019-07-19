@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/****************************************/
+/* Table Styles */
+.list-page-wrap {
+  width: 80%;
+  margin: 25px auto;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+thead tr th {
+  background-color: #dddddd;
+  text-align: center;
+}
+td, th {
+  border: 1px solid #11080847;
+  text-align: center;
+  padding: 8px;
+}
+header {
+  color: #dddddd;
+  padding: 15px 25px;
+}
+.app-header-text {
+  text-align: center;
+  font-size: 24px;
+  color: #110808;
+  margin: 5px;
+}
+.nav-bar-links {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.link-text {
+  color: #110808;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.active-link {
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.search-bar-wrap input{
+  padding: 10px;
+    width: 100%;
+}
+.search-bar-wrap input:focus {
+  outline: none;
+}
+.search-bar-wrap {
+  width: 100%;
+}
+/* Add books CSS */
+.add-wrap h5{
+ text-align: center;
+}
+.form-group {
+  width: 80%;
+  margin: 25px auto;
+}
+.form-group input {
+  width: 100%;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+.btn-wrap {
+  display: block;
+  width: 75px;
+  margin: 15px auto;
+}
